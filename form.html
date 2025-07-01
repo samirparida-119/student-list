@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="./style/global.css">
+</head>
+
+<body>
+  <header class="header"></header>
+
+  <main class="main">
+    <aside class="sidebar"></aside>
+
+    <div class="main-content">
+      <form class="form add-user-form" id="student-form">
+        <div class="form-group">
+          <label for="course">Course</label>
+          <select id="course" required>
+            <option value="" disabled selected>Choose your course</option>
+            <option value="CSE">CSE</option>
+            <option value="CHEMICAL">CHEMICAL</option>
+            <option value="MARINE">MARINE</option>
+            <option value="ELECTRICAL">ELECTRICAL</option>
+            <option value="MECHANICAL">MECHANICAL</option>
+            <option value="CIVIL">CIVIL</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Full Name" id="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="registration">Registration No:</label>
+          <input type="text" placeholder="Registration No" id="registration" required>
+        </div>
+
+        <div class="form-group">
+          <label for="semester">Current Semester</label>
+          <select id="semester" required>
+            <option value="1">1st sem</option>
+            <option value="2">2nd sem</option>
+            <option value="3">3rd sem</option>
+            <option value="4">4th sem</option>
+            <option value="5">5th sem</option>
+            <option value="6">6th sem</option>
+            <option value="7">7th sem</option>
+            <option value="8">8th sem</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="backlogs">Number of Backlogs:</label>
+          <input type="number" id="backlogs" placeholder="Enter number" required>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" title="Submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Made by Samir Parida</p>
+  </footer>
+
+  <script src="./js/pages/form.js" type="module"></script>
+</body>
+
+</html>

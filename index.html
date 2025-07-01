@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student List</title>
+  <link rel="stylesheet" href="./style/global.css">
+  <style>
+    .table {
+      margin-top: 1rem;
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .table th, .table td {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .table-responsive {
+      overflow-x: auto;
+    }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header"></header>
+
+  <main class="main">
+    <aside class="sidebar"></aside>
+    <div class="main-content">
+      <article>
+        <header>
+          <h2>Student List</h2>
+        </header>
+        <div class="table-responsive">
+          <table class="table table-user">
+            <caption class="visually-hidden">Student Information Table</caption>
+            <thead>
+              <tr>
+                <th scope="col">Course</th>
+                <th scope="col">Name</th>
+                <th scope="col">Registration No</th>
+                <th scope="col">Current Semester</th>
+                <th scope="col">Number of Backlogs</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Data rows will be injected here by JS -->
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Made by Samir Parida</p>
+  </footer>
+
+  <script type="module" src="./js/pages/index.js"></script>
+</body>
+
+</html>
