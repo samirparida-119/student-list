@@ -4,7 +4,7 @@ import { getLocalStorage, setLocalStorage } from './utils.js';
 const admin = {
   id: Date.now(),
   fullname: 'Samir',
-  email: 'samir@gmail.com',
+  email: 'admin@gmail.com',
   password: '123',
   age: 0,
   company: '-',
