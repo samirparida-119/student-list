@@ -78,11 +78,3 @@ npx serve
 
 Made by **Samir Parida**
 
----
-
-## 📌 To-Do / Future Improvements
-
-* Add persistent storage using localStorage or a backend database
-* Implement full CRUD functionality
-* Add authentication logic for login
-* Improve UI/UX with frameworks or component libraries
