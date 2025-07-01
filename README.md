@@ -1,4 +1,4 @@
-```markdown
+
 # 🧑‍🎓 Student Management Dashboard
 
 A simple Student Management System built using vanilla HTML, CSS, and JavaScript. It allows you to:
